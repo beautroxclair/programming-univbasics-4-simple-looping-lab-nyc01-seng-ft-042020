@@ -46,3 +46,4 @@ def return_string_array(array)
     n += 1
   end
   arr
+end

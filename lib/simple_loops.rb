@@ -6,7 +6,7 @@ def loop_message_five_times(message)
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
     puts message
-    n++
+    n += 1
   end
 end
 

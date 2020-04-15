@@ -13,7 +13,7 @@ end
 
 def loop_message_n_times(message, i)
   n=0
-  while n < i
+  while n < i do
     # possible security flaw. 
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
@@ -25,7 +25,7 @@ end
 def output_array(array)
   n=0
   arr = []
-  while n < i
+  while n < i do
     # possible security flaw. 
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
@@ -38,7 +38,7 @@ end
 def return_string_array(array)
   n=0
   arr = []
-  while n < array.length
+  while n < array.length do
     # possible security flaw. 
     # message is allowed to be of arbitrary size. 
     # Write check for valid input

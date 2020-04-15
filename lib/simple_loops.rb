@@ -18,7 +18,7 @@ def loop_message_n_times(message, i)
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
     puts message
-    n++
+    n += 1
   end
 end
 
@@ -30,7 +30,7 @@ def output_array(message, i)
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
     arr.push[message]
-    n++
+    n += 1
   end
   arr
 end
@@ -43,6 +43,6 @@ def return_string_array(array)
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
     arr.push("#{array[n]}")
-    n++
+    n += 1
   end
   arr

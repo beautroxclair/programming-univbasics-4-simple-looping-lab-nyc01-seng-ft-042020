@@ -22,14 +22,14 @@ def loop_message_n_times(message, i)
   end
 end
 
-def output_array(message, i)
+def output_array(array)
   n=0
   arr = []
   while n < i
     # possible security flaw. 
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
-    arr.push[message]
+    puts array[n]
     n += 1
   end
   arr

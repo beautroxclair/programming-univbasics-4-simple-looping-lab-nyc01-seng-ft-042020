@@ -25,7 +25,7 @@ end
 def output_array(array)
   n=0
   arr = []
-  while n < i do
+  while n < array.length do
     # possible security flaw. 
     # message is allowed to be of arbitrary size. 
     # Write check for valid input
